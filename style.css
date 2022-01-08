@@ -1,0 +1,91 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#circle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+button{
+    margin-top: 10px;
+  background-color: red;
+  box-shadow: 0 5px 0 darkred;
+  color: white;
+  padding: 1em 1.5em;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+
+button:hover {
+  background-color: #ce0606;
+}
+
+button:active {
+  box-shadow: none;
+  top: 5px;
+}
+
+/* Non-Demo Styles */
+body {
+    background-color: #07A0C3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.iconify{
+    font-size: 4em;
+}
+.align{
+    text-align: center;
+}
+#result{
+  font-style: italic;
+  font-size: 2.3em;
+color: #f0c808;
+text-shadow: #ce0606 2px 2px 2px;
+}
+h1{
+  text-align: center;
+}
+
+
+
+
+
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+a{
+  color: #ce0606;
+}

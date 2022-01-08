@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinese zodiac sign</title>
+    <link rel="icon" href="title.jpeg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+    <div>
+        <h1 id="header"> What&rsquo;s Your Chinese Zodiac Sign? </h1>
+        <div id="error" class="alert">
+            <span id="close" class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+            <strong id="danger">wrong!</strong> please enter a valid birth date
+          </div>
+        <span id="monkey" class="iconify" data-icon="emojione:monkey"></span>
+        <span id="rooster" class="iconify" data-icon="emojione:rooster"></span>
+        <span id="dog" class="iconify" data-icon="noto:dog"></span>
+        <span id="pig" class="iconify" data-icon="emojione:pig"></span>
+        <span id="rat" class="iconify" data-icon="emojione-v1:rat"></span>
+        <span id="ox" class="iconify" data-icon="emojione:ox"></span>
+        <span id="tiger" class="iconify" data-icon="emojione-v1:tiger"></span>
+        <span id="rabbit" class="iconify" data-icon="noto:rabbit"></span>
+        <span id="dragon" class="iconify" data-icon="noto-v1:dragon-face"></span>
+        <span id="snake" class="iconify" data-icon="noto:snake"></span>
+        <span id="horse" class="iconify" data-icon="emojione:horse"></span>
+        <span id="sheep" class="iconify" data-icon="fxemoji:sheep"></span>
+ 
+    </div>
+    <div id="circle">
+       <h3 id="info">enter your birthyear to find it out </h3> 
+        <input id="input" type="number" min="1900" max="2099" step="1" placeholder="2022" />
+        <button id="btn">search</button>
+        <p id="result"></p>
+
+    </div>
+    <div class="align">
+        <span id="wood-icon" class="iconify" data-icon="noto:wood"></span>
+        <span id="fire-icon" class="iconify" data-icon="emojione:fire"></span>
+        <span id="earth-icon" class="iconify" data-icon="flat-ui:earth"></span>
+        <span id="metal-icon" class="iconify" data-icon="icon-park:heavy-metal"></span>
+        <span id="water-icon" class="iconify" data-icon="emojione-v1:water-wave"></span>
+    </div>
+    <h6> <a href="https://github.com/halil180">&copy;   Halil Komurcu</a> </h6>
+</div>
+
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
